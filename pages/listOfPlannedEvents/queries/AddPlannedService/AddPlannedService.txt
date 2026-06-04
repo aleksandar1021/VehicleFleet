@@ -1,0 +1,12 @@
+{
+  "vehicle_id": {{vozilo_servis_plan.selectedOptionValue}},
+  "event_type_id": 2,
+  "event_type": "SERVICE",
+  "planned_date": {{planirani_datum_servis.formattedDate}},
+  "event_date": {{dogovoreni_datum_servis.formattedDate || planirani_datum_servis.formattedDate}},
+  "future_mileage": {{Number(planirane_km_servis.text) || null}},
+  "work_description": {{auto_servis_servis.text || null}},
+  "comment": {{komentar_servis.text || null}},
+  "realized": false,
+  "mileage": 0
+}

@@ -1,0 +1,19 @@
+{
+  "equipment_name": {{naziv_vozilaCopy.text}},
+  "licence_plate_number": {{registarski_brojCopy.text}},
+  "manufacturer_id": {{proizvodjacEdit.selectedOptionValue ? Number(proizvodjacEdit.selectedOptionValue) : null}},
+  "model_id": {{modelEdit.selectedOptionValue ? Number(modelEdit.selectedOptionValue) : null}},
+  "vehicle_type_id": {{tip_vozilaCopy.selectedOptionValue ? Number(tip_vozilaCopy.selectedOptionValue) : null}},
+  "vehicle_year_of_production": {{godina_proizvodnjeCopy.text || null}},
+  "vehicle_mileage": {{Number(kilometrazaCopy.text) || 0}},
+  "vehicle_mileage_date": {{datum_kilometrazeCopy.formattedDate || null}},
+  "registration_expiration_date": {{istek_registracijeCopy.formattedDate || null}},
+  "insurance_id": {{osiguravajuca_kucaCopy.selectedOptionValue ? Number(osiguravajuca_kucaCopy.selectedOptionValue) : null}},
+  "mandatory_insurance_policy_number": {{broj_poliseCopy.text || null}},
+  "green_card": {{zeleni_kartonCopy.isChecked}},
+  "kasko_insurance_expiry_date": {{istek_kaskoCopy.formattedDate || null}},
+  "kasko_insurance_policy_number": {{broj_kasko_poliseCopy.text || null}},
+  "default_driver_id": {{podrazumevani_vozacCopy.selectedOptionValue ? Number(podrazumevani_vozacCopy.selectedOptionValue) : null}},
+		"image_url": {{trenutna_slika.files.length > 0 ? trenutna_slika.files[0].data : null}}
+
+}

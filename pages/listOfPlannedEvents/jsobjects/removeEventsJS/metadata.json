@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_c4111b3f-7543-491a-972d-38d5d157b29b",
+  "id": "listOfPlannedEvents_removeEventsJS",
+  "unpublishedCollection": {
+    "name": "removeEventsJS",
+    "pageId": "listOfPlannedEvents",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

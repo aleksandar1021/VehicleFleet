@@ -1,0 +1,7 @@
+{
+  "ime":     "{{imeEdit.text}}",
+  "prezime": "{{prezimeEdit.text}}",
+  "email":   "{{emailEdit.text}}",
+  "lozinka": "{{passwordEdit.text}}",
+  "role":    "{{roleEdit.selectedOptionValue}}"
+}

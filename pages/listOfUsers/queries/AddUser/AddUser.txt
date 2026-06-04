@@ -1,0 +1,8 @@
+{
+  "ime":     "{{Input1.text}}",
+  "prezime": "{{Input2.text}}",
+  "email":   "{{Input4.text}}",
+  "lozinka": "{{Input5.text}}",
+  "role":    "{{Select1.selectedOptionValue}}",
+  "aktivan": true
+}

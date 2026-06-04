@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_e78b0af2-adcf-429a-bbc8-46c7ba66f812",
+  "id": "listOfVehicles_storeImageUrl",
+  "unpublishedCollection": {
+    "name": "storeImageUrl",
+    "pageId": "listOfVehicles",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

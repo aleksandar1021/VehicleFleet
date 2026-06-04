@@ -1,0 +1,64 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "negedc745o",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentColumnSpace": 2.711181640625,
+  "parentId": "ndvokg9xk7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldTruncate": false,
+  "text": "{{\n\"<div style='background:rgba(255,255,255,0.05); border-radius:10px; border:0.5px solid rgba(255,255,255,0.15); overflow:hidden;'>\" +\n\n  \"<div style='padding:14px 14px 10px; display:flex; align-items:center; gap:10px; border-bottom:0.5px solid rgba(255,255,255,0.1);'>\" +\n    \"<div style='width:38px; height:38px; border-radius:50%; background:#534AB7; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:500; color:#EEEDFE; flex-shrink:0;'>\" +\n      (appsmith.store.korisnikIme ? appsmith.store.korisnikIme.charAt(0).toUpperCase() : '?') +\n    \"</div>\" +\n    \"<div>\" +\n      \"<p style='margin:0; font-size:13px; font-weight:500; color:#fff;'>\" + (appsmith.store.korisnikIme || '') + \"</p>\" +\n      \"<p style='margin:0; font-size:11px; color:rgba(255,255,255,0.5);'>\" + (appsmith.store.korisnikEmail || '') + \"</p>\" +\n    \"</div>\" +\n  \"</div>\" +\n\n  \"<div style='padding:8px 14px; display:flex; align-items:center; justify-content:space-between;'>\" +\n    \"<span style='font-size:11px; color:rgba(255,255,255,0.4);'>Uloga</span>\" +\n    \"<span style='font-size:11px; font-weight:500; padding:2px 10px; border-radius:20px; background:\" +\n      (appsmith.store.korisnikRole === 'admin'    ? 'rgba(231,76,60,0.2); color:#E74C3C;' :\n       appsmith.store.korisnikRole === 'menadzer' ? 'rgba(243,156,18,0.2); color:#F39C12;' :\n       'rgba(39,174,96,0.2); color:#27AE60;') +\n    \"'>\" + (appsmith.store.korisnikRole || '') + \"</span>\" +\n  \"</div>\" +\n\n\"</div>\"\n}}",
+  "textAlign": "LEFT",
+  "textColor": "{{\nappsmith.store.korisnikRole == 'Admin'    ? '#E74C3C' :\nappsmith.store.korisnikRole == 'Menadzer' ? '#F39C12' :\nappsmith.store.korisnikRole == 'Vozac'    ? '#27AE60' :\n'#888888'\n}}",
+  "topRow": 0,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "047qpycafs",
+  "widgetName": "Text2"
+}

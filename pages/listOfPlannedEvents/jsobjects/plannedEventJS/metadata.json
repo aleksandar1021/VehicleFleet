@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_b6f91448-183b-43dc-9e3f-633d730829bb",
+  "id": "listOfPlannedEvents_plannedEventJS",
+  "unpublishedCollection": {
+    "name": "plannedEventJS",
+    "pageId": "listOfPlannedEvents",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
