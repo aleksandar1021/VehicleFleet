@@ -70,6 +70,10 @@
     {
       "id": "listOfRealisedEvents",
       "isDefault": false
+    },
+    {
+      "id": "dashboard",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
