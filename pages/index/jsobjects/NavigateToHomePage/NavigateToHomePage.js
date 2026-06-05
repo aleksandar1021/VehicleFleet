@@ -1,5 +1,5 @@
 export default {
   navigate: () => {
-    OpenPage.OpenPage('https://app.appsmith.com/app/vehiclefleet/listofplannedevents-6a1ffd7be625f92157a7af0f');
+    OpenPage.OpenPage('https://app.appsmith.com/app/vehiclefleet/dashboard-6a22b07da9f22a12ff89d435');
   }
 }
