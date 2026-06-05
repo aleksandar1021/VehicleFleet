@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_06f47acd-0365-492b-bf65-828e3920c80c",
+  "id": "listOfPlannedEvents_realizeEventJS",
+  "unpublishedCollection": {
+    "name": "realizeEventJS",
+    "pageId": "listOfPlannedEvents",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

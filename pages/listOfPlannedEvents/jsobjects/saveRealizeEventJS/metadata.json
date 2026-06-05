@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_030f9095-dfae-424d-9983-c381cacc34c0",
+  "id": "listOfPlannedEvents_saveRealizeEventJS",
+  "unpublishedCollection": {
+    "name": "saveRealizeEventJS",
+    "pageId": "listOfPlannedEvents",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

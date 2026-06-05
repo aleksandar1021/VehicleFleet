@@ -25,7 +25,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/vehicle_models",
+      "path": "/rest/v1/vehicle_events",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -34,15 +34,15 @@
       "queryParameters": [
         {
           "key": "select",
-          "value": "id,name,aktivan,manufacturer_id,vehicle_manufacturers(name)"
+          "value": "id,vehicle_id,event_type,event_type_id,event_date,mileage,event_price,comment,work_description,parts_changed,insurance_house,policy_number,expiration_date,amount,fuel_type,tyre_count,price_per_tyre,realized,vehicles(equipment_name,licence_plate_number),event_types(name,code)"
         },
         {
-          "key": "aktivan",
+          "key": "realized",
           "value": "eq.true"
         },
         {
           "key": "order",
-          "value": "name.asc"
+          "value": "event_date.desc"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -59,7 +59,7 @@
     "dynamicBindingPathList": [],
     "name": "GetModels",
     "pageId": "listOfModels",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

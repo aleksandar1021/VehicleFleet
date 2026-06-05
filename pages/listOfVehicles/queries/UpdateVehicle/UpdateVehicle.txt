@@ -14,6 +14,5 @@
   "kasko_insurance_expiry_date": {{istek_kaskoCopy.formattedDate || null}},
   "kasko_insurance_policy_number": {{broj_kasko_poliseCopy.text || null}},
   "default_driver_id": {{podrazumevani_vozacCopy.selectedOptionValue ? Number(podrazumevani_vozacCopy.selectedOptionValue) : null}},
-		"image_url": {{trenutna_slika.files.length > 0 ? trenutna_slika.files[0].data : null}}
-
+"image_url": {{appsmith.store.updateImageUrl}}
 }

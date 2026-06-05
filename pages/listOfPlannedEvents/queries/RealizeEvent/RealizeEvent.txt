@@ -1,0 +1,16 @@
+{
+  "employee_id": {{Number(zaposleni_real.selectedOptionValue) || null}},
+  "event_price": {{Number(iznos_real.text) || 0}},
+  "currency_id": {{Number(valuta_real.selectedOptionValue) || null}},
+  "payment_type_id": {{Number(nacin_placanja_real.selectedOptionValue) || null}},
+  "event_date": {{datum_real.formattedDate || null}},
+  "policy_number": {{aktivirana_polisa_real.text || null}},
+  "expiration_date": {{datum_aktivacije_real.formattedDate || null}},
+  "mileage": {{Number(kilometraza_real.text) || 0}},
+  "location": {{auto_servis_real.text || null}},
+  "service_type_id": {{Number(tip_servisiranja_real.selectedOptionValue) || null}},
+  "work_description": {{opis_radova_real.text || null}},
+  "parts_changed": {{promenjeni_delovi_real.text || null}},
+  "comment": {{komentar_real.text || null}},
+  "realized": true
+}

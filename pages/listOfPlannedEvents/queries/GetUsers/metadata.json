@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6a193a75876d4b5697ccc633_4fde72bc-1e6a-4fc1-9bc5-53c2c963c09f",
-  "id": "listOfPlannedEvents_GetPlannedEvents",
+  "gitSyncId": "6a193a75876d4b5697ccc633_03164de3-aa63-4c3a-bfa1-b3281b0d6bf9",
+  "id": "listOfPlannedEvents_GetUsers",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -25,7 +25,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/vehicle_events",
+      "path": "/rest/v1/users",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -34,15 +34,15 @@
       "queryParameters": [
         {
           "key": "select",
-          "value": "id,vehicle_id,employee_id,service_type_id,work_description,planned_date,event_date,future_mileage,comment,realized,vehicles(equipment_name),event_types(name,code)\n"
+          "value": "id,ime,prezime"
         },
         {
-          "key": "realized",
-          "value": "eq.false"
+          "key": "aktivan",
+          "value": "eq.true"
         },
         {
           "key": "order",
-          "value": "planned_date.asc"
+          "value": "ime.asc"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -57,7 +57,7 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "GetPlannedEvents",
+    "name": "GetUsers",
     "pageId": "listOfPlannedEvents",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
