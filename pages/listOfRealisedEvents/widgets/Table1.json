@@ -46,7 +46,7 @@
     "employee_id",
     "event_type_id"
   ],
-  "columnUpdatedAt": 1780646077133,
+  "columnUpdatedAt": 1780903776440,
   "columnWidthMap": {
     "users": 88,
     "vehicles": 303
@@ -68,9 +68,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "tableData"
     },
     {
       "key": "primaryColumns.id.computedValue"
@@ -110,6 +107,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -490,7 +490,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"users\"])) : users })()}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ((currentRow.users?.ime && currentRow.users?.prezime) ? currentRow.users.ime + \" \" + currentRow.users.prezime : \"—\")) : (currentRow.users?.ime && currentRow.users?.prezime) ? currentRow.users.ime + \" \" + currentRow.users.prezime : \"—\" })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,

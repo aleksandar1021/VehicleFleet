@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_878c6065-02d5-4e10-b820-4b7679edc550",
+  "id": "listOfPlannedEvents_onRowSelectJS",
+  "unpublishedCollection": {
+    "name": "onRowSelectJS",
+    "pageId": "listOfPlannedEvents",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -46,7 +46,7 @@
     "employee_id",
     "service_type_id"
   ],
-  "columnUpdatedAt": 1780655561458,
+  "columnUpdatedAt": 1780905219420,
   "columnWidthMap": {
     "vehicles": 185
   },
@@ -54,9 +54,7 @@
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": "[\n  0\n]",
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
@@ -134,6 +132,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.menuItems.menuItem7r4m767cri.onClick"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "enableClientSideSearch": true,
@@ -156,7 +157,9 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 34,
   "mobileTopRow": 6,
+  "multiRowSelection": false,
   "needsErrorInfo": false,
+  "onRowSelected": "{{onRowSelectJS.Table1onRowSelected();}}",
   "originalBottomRow": 75,
   "originalTopRow": 6,
   "parentColumnSpace": 20.25,
@@ -289,7 +292,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "employee_id",
       "notation": "standard",
       "originalId": "employee_id",
@@ -527,7 +530,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "service_type_id",
       "notation": "standard",
       "originalId": "service_type_id",
@@ -630,7 +633,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "work_description",
+      "label": "Opis radova",
       "notation": "standard",
       "originalId": "work_description",
       "sticky": "",
@@ -644,7 +647,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "searchKey": "",
   "tableData": "{{GetPlannedEvents.data}}",
   "textSize": "0.875rem",
