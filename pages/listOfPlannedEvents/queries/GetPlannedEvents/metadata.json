@@ -34,7 +34,7 @@
       "queryParameters": [
         {
           "key": "select",
-          "value": "id,vehicle_id,employee_id,service_type_id,work_description,planned_date,event_date,future_mileage,comment,realized,vehicles(equipment_name),event_types(name,code)\n"
+          "value": "id,vehicle_id,employee_id,service_type_id,event_type,work_description,planned_date,event_date,future_mileage,comment,realized,vehicles(equipment_name,image_url),event_types(name,code)\n"
         },
         {
           "key": "realized",
