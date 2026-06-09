@@ -1,11 +1,12 @@
 export default {
-  Table1onRowSelected: async () => {
-  await storeValue('previewRow', Table1.selectedRow);
-  await storeValue('previewVehicleName', Table1.selectedRow.vehicles?.equipment_name || Table1.selectedRow.vehicles);
-  await storeValue('previewVehicleImage', Table1.selectedRow.vehicles?.image_url);
-  await GetPlannedEventsByVehicle.run();
-  showModal('singlePlannedEventView');
-		
-		console.log(Table1.selectedRow)
-}
+	Table1onRowSelected: async () => {
+		const selectedId = Table1.selectedRow.id;
+		const fullRow = Table1.tableData.find(row => row.id === selectedId);
+
+		await storeValue('previewRow', Table1.selectedRow);
+		await storeValue('previewVehicleImage', fullRow?.vehicles?.image_url || null);
+		await storeValue('previewVehicleName', fullRow?.vehicles?.equipment_name || null);
+		await GetPlannedEventsByVehicle.run();
+		showModal('singlePlannedEventView');
+	}
 }

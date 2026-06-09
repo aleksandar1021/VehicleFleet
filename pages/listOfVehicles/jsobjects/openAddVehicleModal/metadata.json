@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a193a75876d4b5697ccc633_cde6a218-e99f-4d76-8270-0d54d3fe1fee",
+  "id": "listOfVehicles_openAddVehicleModal",
+  "unpublishedCollection": {
+    "name": "openAddVehicleModal",
+    "pageId": "listOfVehicles",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
