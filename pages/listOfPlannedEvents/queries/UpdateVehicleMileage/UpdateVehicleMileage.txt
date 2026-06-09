@@ -1,0 +1,4 @@
+{
+  "vehicle_mileage": {{Number(kilometraza_real.text) || 0}},
+  "vehicle_mileage_date": {{datum_real.formattedDate || null}}
+}
