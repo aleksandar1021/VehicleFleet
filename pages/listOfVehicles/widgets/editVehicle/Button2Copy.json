@@ -32,7 +32,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(addVehicle.name);}}",
+  "onClick": "{{closeModal('')}}",
   "originalBottomRow": 79,
   "originalTopRow": 75,
   "parentId": "pfxlf4wdhi",
