@@ -8,8 +8,8 @@ export default {
         const role = (appsmith.store.korisnikRole || '').toLowerCase();
 
         if (role !== 'admin' && role !== 'menadzer') {
-            navigateTo('blankPage');
-            return;
+						storeValue('iframeUrl', 'https://app.appsmith.com/app/vehiclefleet/blankpage-6a199460238152f20247be0f')
+						return;
         }
     }
 }
