@@ -21,12 +21,11 @@ export default {
             const korisnik = result[0];
 
             // Sačuvaj sesiju
-            await storeValue('logovan', true);
-            await storeValue('korisnikId', korisnik.id);
-            await storeValue('korisnikIme', korisnik.ime);
-            await storeValue('korisnikEmail', korisnik.email);
-            await storeValue('korisnikRole', korisnik.role);
-
+            await storeValue('logovan', true, true);
+						await storeValue('korisnikId', korisnik.id, true);
+						await storeValue('korisnikIme', korisnik.ime, true);
+						await storeValue('korisnikEmail', korisnik.email, true);
+						await storeValue('korisnikRole', korisnik.role, true);
             showAlert("Dobrodošao " + korisnik.ime + "!", "success");
 
             // Preusmeri na glavnu stranicu
