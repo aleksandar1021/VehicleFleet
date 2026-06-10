@@ -1,11 +1,14 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
       "navStyle": "sidebar",
@@ -76,12 +79,15 @@
       "isDefault": false
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
       "navStyle": "sidebar",

@@ -371,7 +371,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "html",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"••••••••\")) : \"••••••••\" })()}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"lozinka\"])) : currentRow[\"lozinka\"] })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
